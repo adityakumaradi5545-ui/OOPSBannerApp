@@ -1,8 +1,9 @@
 package com.oopsbanner;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Welcome to OOPS Banner App");
+    private String name;
+    public String getName() { 
+        return name; 
     }
 }
 
